@@ -1,0 +1,31 @@
+{
+    "name": "kkort/utils",
+    "description": "utils",
+    "type": "library",
+    "authors": [
+        {
+            "name": "liutao",
+            "email": "gg.cn.lt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kkrot\\Utils\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\Utils\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --verbose --colors=always "
+    }
+}
